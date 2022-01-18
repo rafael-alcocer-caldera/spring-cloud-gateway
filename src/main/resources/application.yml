@@ -1,0 +1,15 @@
+server:
+  port : 9091
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: kafka
+        uri: http://localhost:8089/
+        predicates:
+        - Path=/kafka/**
+      - id: elasticsearch
+        uri: http://localhost:8085/
+        predicates:
+        - Path=/elasticsearch/**
