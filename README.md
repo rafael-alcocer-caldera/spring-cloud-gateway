@@ -24,10 +24,13 @@ http://localhost:9091/elasticsearch/get
 
 Body
 ----
+```json
 {"index": "myindex", "id": "1"}
+```
 
 Response:
 ---------
+```json
 {
     "fields": {},
     "id": "1",
@@ -62,6 +65,7 @@ Response:
     "sourceAsBytes": "eyJuYW1lIjoiUEVURVIiLCJzdXJuYW1lIjoiVEFCTEUiLCJhZ2UiOjU2LCJiaXJ0aGRhdGUiOiIxOTUwLTAxLTEwIiwiaG91ciI6IjE1OjMwIn0=",
     "fragment": false
 }
+```
 
 KAFKA
 
@@ -71,6 +75,7 @@ http://localhost:9091/kafka/producer
 
 Body
 ----
+```json
 {
 	"id": "1",
 	"topicName": "rac-topic",
@@ -81,6 +86,7 @@ Body
 		"fecha": "1900 - 08 - 13"
 	}
 }
+```
 
 Response:
 ---------
