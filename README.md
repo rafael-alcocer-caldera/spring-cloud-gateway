@@ -63,9 +63,8 @@ Response:
     "fragment": false
 }
 
-</code></pre>
-
 KAFKA
+
 POST
 
 http://localhost:9091/kafka/producer
@@ -85,6 +84,8 @@ Body
 
 Response:
 ---------
+
+</code></pre>
 
 ## License
 
